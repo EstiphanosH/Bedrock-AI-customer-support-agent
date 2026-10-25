@@ -1,1 +1,15 @@
-.venv
+
+.env
+.env.*
+!.env.example
+
+.venv/
+__pycache__/
+*.pyc
+
+.bedrock_agentcore.yaml
+
+# Generated AgentCore deployment artifacts
+.bedrock_agentcore/
+.bedrock_agentcore/
+ .bedrock_agentcore/csai/dependencies.hash
